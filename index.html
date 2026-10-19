@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fff8f5">
+  <meta name="description" content="Món quà nhỏ anh dành tặng Nguyễn Thị Nhật Linh, cùng những lời thương và kỷ niệm đẹp của hai đứa.">
+  <title>Gửi Nguyễn Thị Nhật Linh — 20 tháng 10</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="is-locked">
+  <section class="lock-screen" id="lock-screen" aria-labelledby="lock-title">
+    <div class="lock-card">
+      <span class="lock-flower" aria-hidden="true">✿</span>
+      <p class="eyebrow lock-eyebrow">Món quà nhỏ dành riêng cho Nguyễn Thị Nhật Linh</p>
+      <h1 id="lock-title">Nhật Linh ơi,<br><em>anh có điều muốn nói.</em></h1>
+      <p class="lock-description">Nhập mật khẩu của chúng mình để mở món quà nhé.</p>
+      <form class="lock-form" id="unlock-form">
+        <label class="visually-hidden" for="unlock-password">Mật khẩu mở khóa</label>
+        <input id="unlock-password" name="password" type="password" inputmode="none" autocomplete="off" maxlength="4" placeholder="Mật khẩu của chúng mình" aria-describedby="keypad-hint lock-error" readonly required autofocus>
+        <p class="keypad-hint" id="keypad-hint">Chạm vào các số để nhập mật khẩu</p>
+        <div class="number-pad" id="number-pad" role="group" aria-label="Bàn phím số nhập mật khẩu">
+          <button class="number-key" type="button" data-key="1" aria-label="Số 1">1</button>
+          <button class="number-key" type="button" data-key="2" aria-label="Số 2">2</button>
+          <button class="number-key" type="button" data-key="3" aria-label="Số 3">3</button>
+          <button class="number-key" type="button" data-key="4" aria-label="Số 4">4</button>
+          <button class="number-key" type="button" data-key="5" aria-label="Số 5">5</button>
+          <button class="number-key" type="button" data-key="6" aria-label="Số 6">6</button>
+          <button class="number-key" type="button" data-key="7" aria-label="Số 7">7</button>
+          <button class="number-key" type="button" data-key="8" aria-label="Số 8">8</button>
+          <button class="number-key" type="button" data-key="9" aria-label="Số 9">9</button>
+          <button class="number-key number-key-action" type="button" data-action="clear">Xóa</button>
+          <button class="number-key" type="button" data-key="0" aria-label="Số 0">0</button>
+          <button class="number-key number-key-action" type="button" data-action="backspace" aria-label="Xóa số cuối">⌫</button>
+        </div>
+        <button class="button button-primary unlock-button" type="submit">Mở món quà <span aria-hidden="true">♡</span></button>
+        <p class="lock-error" id="lock-error" role="alert" aria-live="polite"></p>
+      </form>
+      <p class="lock-signoff">Chỉ dành cho cô gái đặc biệt nhất <span aria-hidden="true">♡</span></p>
+    </div>
+  </section>
+
+  <div id="site-content" hidden>
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+  <div class="petal-layer" id="petal-layer" aria-hidden="true"></div>
+  <aside class="music-dock" id="music-dock" aria-label="Điều khiển nhạc nền" hidden>
+    <img src="Images/1792334661627_131250798445050534_7029039504218096888_5ce083a7b47b0ae5bcc283c201710f1c.webp" alt="" aria-hidden="true">
+    <div class="music-dock-copy">
+      <span>NHẠC NỀN</span>
+      <strong id="music-dock-title">Đang chờ phát</strong>
+    </div>
+    <button class="music-dock-button" id="music-dock-toggle" type="button" aria-label="Phát nhạc nền">▶</button>
+    <button class="music-dock-button music-dock-next" id="music-dock-next" type="button" aria-label="Phát bài ngẫu nhiên tiếp theo">⤭</button>
+    <audio id="music-audio" preload="metadata"></audio>
+  </aside>
+
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Gửi Nhật Linh, về đầu trang">
+      <span class="brand-mark" aria-hidden="true">✿</span>
+      <span>gửi Nhật Linh<span class="brand-period">.</span></span>
+    </a>
+    <nav class="main-nav" aria-label="Điều hướng chính">
+      <a href="#loi-thuong">Lời thương</a>
+      <a href="#album">Album kỷ niệm</a>
+    </nav>
+    <a class="header-cta" href="#loi-thuong">Lời nhắn của anh <span aria-hidden="true">↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-line"></span> Gửi Nguyễn Thị Nhật Linh, cô gái anh thương</p>
+        <h1>Thế giới dịu dàng<br>hơn vì <em>có Nhật Linh.</em></h1>
+        <p class="hero-description">Anh làm góc nhỏ này để kể Linh nghe những điều đôi khi còn ngại nói, và cùng cất giữ những khoảnh khắc thật đẹp của hai đứa.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#loi-thuong">Khám phá lời thương <span aria-hidden="true">↓</span></a>
+          <span class="hero-date"><span class="date-flower" aria-hidden="true">✿</span> 20 tháng 10 <span class="date-year">· Ngày của chúng mình</span></span>
+        </div>
+        <div class="hero-note"><span class="note-heart" aria-hidden="true">♡</span> Cảm ơn Nhật Linh vì đã khiến những ngày bình thường trở nên thật đặc biệt.</div>
+      </div>
+      <div class="hero-art" aria-label="Khoảnh khắc dịu dàng của người anh yêu">
+        <img class="hero-image" src="Images/1792334661627_131250798445050534_7029039504218096888_5ce083a7b47b0ae5bcc283c201710f1c.webp" alt="Nhật Linh trong chiếc váy trắng bên hồ lúc chiều tà">
+        <div class="image-wash"></div>
+        <div class="hero-sticker sticker-top"><span>♡</span><br>made with<br>love</div>
+        <div class="hero-sticker sticker-bottom"><span class="sticker-sparkle">✳</span> 20.10 <span>✳</span></div>
+        <span class="hero-orbit orbit-one" aria-hidden="true">✳</span>
+        <span class="hero-orbit orbit-two" aria-hidden="true">✿</span>
+      </div>
+      <div class="hero-scroll" aria-hidden="true"><span></span> KÉO XUỐNG ĐỂ CẢM NHẬN</div>
+    </section>
+
+    <section class="wish-section section-wrap" id="loi-thuong">
+      <div class="section-heading">
+        <p class="eyebrow"><span class="eyebrow-line"></span> Những điều anh vẫn muốn nói cùng Linh</p>
+        <h2>Gửi Linh một <em>lời thương.</em></h2>
+        <p>Đọc những lời này nhé, Linh. Có những điều anh muốn kể mỗi ngày, đâu cần đợi đến dịp đặc biệt.</p>
+      </div>
+
+      <div class="wish-layout">
+        <div class="wish-list" id="wish-list" aria-live="polite">
+          <article class="wish-card wish-card-featured">
+            <span class="wish-number">01 <span>— NHẬT LINH</span></span>
+            <p>“Từ ngày có Linh, những điều giản dị cũng hóa thành kỷ niệm đẹp. Anh mong cô gái anh thương luôn bình yên, rạng rỡ và biết rằng mình được yêu nhiều đến nhường nào.”</p>
+            <span class="wish-author">Gửi người con gái anh thương <span aria-hidden="true">♡</span></span>
+          </article>
+          <article class="wish-card">
+            <span class="wish-number">02 <span>— CHÚNG MÌNH</span></span>
+            <p>“Điều anh thích nhất chẳng phải dịp gì đặc biệt, mà là những buổi bình thường được ở cạnh Linh. Mong hai đứa mình sẽ còn cùng nhau đi qua thật nhiều ngày vui như thế.”</p>
+            <span class="wish-author">Thương những ngày bình dị bên nhau <span aria-hidden="true">♡</span></span>
+          </article>
+          <article class="wish-card">
+            <span class="wish-number">03 <span>— LỜI HỨA</span></span>
+            <p>“Anh không hứa ngày nào cũng hoàn hảo, nhưng sẽ luôn lắng nghe, nắm tay Linh và cùng nhau làm mọi thứ tốt đẹp hơn. Có Linh trong đời là điều anh luôn trân trọng.”</p>
+            <span class="wish-author">Mong được cùng Linh đi thật lâu <span aria-hidden="true">♡</span></span>
+          </article>
+        </div>
+
+        <aside class="wish-compose">
+          <div class="compose-icon" aria-hidden="true">✎</div>
+          <p class="compose-kicker">ĐIỀU ANH MUỐN NÓI</p>
+          <h3>Điều anh muốn<br><em>nhắn với Linh.</em></h3>
+          <p class="compose-description">Một lời thương của riêng anh, để Nhật Linh có thể đọc lại bất cứ lúc nào.</p>
+          <form id="wish-form">
+            <label class="visually-hidden" for="wish-text">Lời nhắn dành cho Nhật Linh</label>
+            <textarea id="wish-text" maxlength="260" placeholder="Một lời cảm ơn, một kỷ niệm, hay đơn giản là anh nhớ Linh..." required></textarea>
+            <div class="form-footer">
+              <span id="character-count">0 / 260</span>
+              <button class="button button-dark" type="submit">Gửi lời thương <span aria-hidden="true">↗</span></button>
+            </div>
+          </form>
+          <p class="compose-footnote"><span aria-hidden="true">✿</span> Lời nhắn sẽ được lưu trên thiết bị này</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="quote-band" id="loi-nhan" aria-label="Lời nhắn dành cho người mình yêu">
+      <span class="quote-decoration quote-left" aria-hidden="true">“</span>
+      <p>Ở cạnh Nhật Linh, ngày bình thường<br><em>cũng hóa thành ngày đáng nhớ.</em></p>
+      <span class="quote-attribution">— Gửi người anh thương, ngày 20 tháng 10 —</span>
+      <span class="quote-decoration quote-right" aria-hidden="true">”</span>
+      <span class="quote-flower flower-a" aria-hidden="true">✿</span>
+      <span class="quote-flower flower-b" aria-hidden="true">✳</span>
+    </section>
+
+    <section class="album-section section-wrap" id="album">
+      <div class="album-heading">
+        <div class="section-heading album-title">
+          <p class="eyebrow"><span class="eyebrow-line"></span> Những khoảnh khắc mình muốn giữ</p>
+          <h2>Chuyện của <em>chúng mình.</em></h2>
+          <p>Những khoảnh khắc anh đã lưu lại, để mỗi lần nhớ Linh, hai đứa mình có thể cùng xem.</p>
+        </div>
+        <label class="button button-outline upload-button" for="photo-input"><span aria-hidden="true">＋</span> Thêm ảnh vào album</label>
+        <input class="visually-hidden" id="photo-input" type="file" accept="image/*" multiple>
+      </div>
+      <div class="upload-hint" id="upload-hint">Kéo thả ảnh vào đây, hoặc chọn ảnh từ thiết bị của bạn <span aria-hidden="true">✿</span></div>
+      <div class="photo-carousel" id="photo-carousel">
+      <div class="photo-grid" id="photo-grid" role="region" aria-roledescription="carousel" aria-label="Album ảnh kỷ niệm" tabindex="0">
+        <div class="photo-empty" id="photo-empty">
+          <span class="empty-flower" aria-hidden="true">✿</span>
+          <p>Câu chuyện của Linh và anh<br><em>sẽ bắt đầu từ đây.</em></p>
+          <span>Thêm một tấm ảnh thật ý nghĩa nhé</span>
+        </div>
+      </div>
+      <div class="photo-navigation" role="group" aria-label="Điều hướng album ảnh">
+        <button class="photo-arrow" id="photo-previous" type="button" aria-label="Xem ảnh trước">←</button>
+        <span class="photo-count" id="photo-count" aria-live="polite">01 / 01</span>
+        <button class="photo-arrow" id="photo-next" type="button" aria-label="Xem ảnh tiếp theo">→</button>
+      </div>
+      <p class="photo-autoplay-hint">Tự chuyển ảnh sau mỗi 5 giây · Vuốt ngang để xem thêm</p>
+      </div>
+      <p class="album-note"><span aria-hidden="true">♡</span> Ảnh trong thư mục Images tự đồng bộ; ảnh tải lên được lưu trên thiết bị này.</p>
+    </section>
+
+    <section class="video-memories section-wrap" id="video" aria-label="Những thước phim">
+      <div class="video-heading">
+        <p class="eyebrow"><span class="eyebrow-line"></span> Những thước phim anh muốn giữ</p>
+        <h2>Thêm chút <em>chuyển động.</em></h2>
+        <p>Nhấn phát để cùng xem lại những khoảnh khắc đáng yêu của Nhật Linh. Vuốt ngang hoặc chạm mũi tên để xem video tiếp theo.</p>
+      </div>
+      <div class="video-carousel">
+        <div class="video-track" id="video-track" role="region" aria-roledescription="carousel" aria-label="Bộ sưu tập video" tabindex="0">
+        <figure class="video-card">
+          <video controls playsinline preload="none" poster="Images/1792282605932_131250798445050534_7029039504218096888_544dce332a472f857ee5278d69308737.webp">
+            <source src="Images/1792340613724_131250798445050534_7029039504218096888.mp4" type="video/mp4">
+            Trình duyệt này chưa hỗ trợ phát video.
+          </video>
+          <figcaption>Một thước phim anh luôn muốn xem lại <span aria-hidden="true">♡</span></figcaption>
+        </figure>
+        <figure class="video-card">
+          <video controls playsinline preload="none" poster="Images/1792334661627_131250798445050534_7029039504218096888_5ce083a7b47b0ae5bcc283c201710f1c.webp">
+            <source src="Images/1792340613737_131250798445050534_7029039504218096888.mp4" type="video/mp4">
+            Trình duyệt này chưa hỗ trợ phát video.
+          </video>
+          <figcaption>Nhật Linh trong khoảnh khắc thật dịu dàng <span aria-hidden="true">♡</span></figcaption>
+        </figure>
+        <figure class="video-card">
+          <video controls playsinline preload="none" poster="Images/1792282562454_131250798445050534_7029039504218096888_6eefa515e98fc660a8a09e391687a47c.webp">
+            <source src="Images/1792341898111_131250798445050534_7029039504218096888.mp4" type="video/mp4">
+            Trình duyệt này chưa hỗ trợ phát video.
+          </video>
+          <figcaption>Thêm một kỷ niệm của chúng mình <span aria-hidden="true">♡</span></figcaption>
+        </figure>
+        </div>
+        <div class="video-navigation" role="group" aria-label="Điều hướng video">
+          <button class="video-arrow" type="button" data-video-direction="-1" aria-label="Xem video trước">←</button>
+          <div class="video-dots" role="group" aria-label="Chọn video">
+            <button class="video-dot is-active" type="button" data-video-to="0" aria-label="Video 1" aria-current="true"></button>
+            <button class="video-dot" type="button" data-video-to="1" aria-label="Video 2"></button>
+            <button class="video-dot" type="button" data-video-to="2" aria-label="Video 3"></button>
+          </div>
+          <span class="video-count" id="video-count" aria-live="polite">01 / 03</span>
+          <button class="video-arrow" type="button" data-video-direction="1" aria-label="Xem video tiếp theo">→</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="closing" id="ket-thuc" aria-label="Lời kết">
+      <span class="closing-flower" aria-hidden="true">✿</span>
+      <p class="eyebrow">Dành riêng cho Nguyễn Thị Nhật Linh</p>
+      <h2>Cảm ơn Linh vì đã ở đây.<br><em>Thương Linh nhiều lắm.</em></h2>
+      <a class="button button-light" href="#home">Về đầu trang cùng anh <span aria-hidden="true">♡</span></a>
+      <p class="closing-signoff">Mong chúng mình luôn chọn nhau <span aria-hidden="true">♡</span></p>
+    </section>
+  </main>
+  <footer class="site-footer"><a class="brand footer-brand" href="#home"><span class="brand-mark" aria-hidden="true">✿</span><span>gửi Nhật Linh<span class="brand-period">.</span></span></a><p>Tháng 10, dành tặng người anh thương.</p><span>20 · 10</span></footer>
+
+  <dialog class="lightbox" id="lightbox" aria-label="Xem ảnh lớn">
+    <button class="lightbox-close" id="lightbox-close" type="button" aria-label="Đóng ảnh">×</button>
+    <button class="lightbox-arrow lightbox-previous" id="lightbox-previous" type="button" aria-label="Xem ảnh trước">‹</button>
+    <img id="lightbox-image" alt="">
+    <button class="lightbox-arrow lightbox-next" id="lightbox-next" type="button" aria-label="Xem ảnh tiếp theo">›</button>
+    <div class="lightbox-caption-row">
+      <p id="lightbox-caption"></p>
+      <span class="lightbox-count" id="lightbox-count" aria-live="polite"></span>
+    </div>
+  </dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
